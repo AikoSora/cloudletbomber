@@ -18,3 +18,13 @@
 <li>git clone https://github.com/YamioKDL/cloudletbomber.git</li>
 <li>python3 -m pip install asyncio, requests</li>
 </ul>
+<h3><b>Usage</b></h3>
+<p>Enter the phone number in the format</p>
+<ul>
+<li>7ХХХХХХХХХХ</li><li>+7ХХХХХХХХХХ</li><li>8ХХХХХХХХХХ</li><li>9ХХХХХХХХХ</li>
+</ul>
+<br/>
+<b>
+The creator is not responsible for your actions.
+The script is intended for informational purposes only
+</b>
