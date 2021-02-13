@@ -1,9 +1,10 @@
 import random, os, ctypes
 import pip
-
+console_clear = 'clear'
 try:
 	kernel32 = ctypes.windll.kernel32
 	kernel32.SetConsoleMode(kernel32.GetStdHandle(-11), 7)
+	console_clear = 'cls'
 except:
 	pass
 
@@ -36,7 +37,7 @@ logo = ('''\033[35m
  | |____| | (_) | |_| | (_| | |  __| |_| |_) | (_) | | | | | | |_) |  __| |   
   \_____|_|\___/ \__,_|\__,_|_|\___|\__|____/ \___/|_| |_| |_|_.__/ \___|_| 
 \033[0m''')
-os.system('clear')
+os.system(console_clear)
 print(logo)
 _phone = input('Please enter phone number > ')
 _phone = _phone.strip()
