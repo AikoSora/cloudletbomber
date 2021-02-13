@@ -10,7 +10,7 @@
 <li>git clone https://github.com/YamioKDL/cloudletbomber.git</li>
 <li>python3 -m pip install asyncio, requests</li>
 </ul>
-<b><u>Linux/Debian</u></b>
+<b><u>Linux/Debian/Ubuntu/Kali</u></b>
 <ul>
 <li>apt update</li>
 <li>apt upgrade</li>
