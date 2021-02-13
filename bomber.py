@@ -1,5 +1,11 @@
-import random, os
+import random, os, ctypes
 import pip
+
+try:
+	kernel32 = ctypes.windll.kernel32
+	kernel32.SetConsoleMode(kernel32.GetStdHandle(-11), 7)
+except:
+	pass
 
 def install(package):
 	if hasattr(pip, 'main'):
