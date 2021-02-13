@@ -1,5 +1,6 @@
 <h1>CloudletBomber</h1>
-<p>Python3/Asyncio/Requests</p>
+<p>Python3/Asyncio/Requests</p><br/>
+<p>The script is a reworking of the original: https://github.com/lime542/top_bomber.git</p>
 <h3><b>install:</b></h3>
 <b><u>termux</u></b>
 <ul>
