@@ -15,7 +15,7 @@ git clone https://github.com/YamioKDL/cloudletbomber.git
 python3 -m pip install asyncio, requests #Not necessarily, the script will install the modules itself 
 ```
 
-### Linux/Debian/Ubuntu/Kali
+### Debian/Ubuntu/Kali
 
 ```
 apt update
