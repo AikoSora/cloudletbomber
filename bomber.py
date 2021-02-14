@@ -8,11 +8,14 @@ try:
 except:
 	pass
 
+reloaded = False
 def install(package):
+	global reloaded
 	if hasattr(pip, 'main'):
 		pip.main(['install', package])
 	else:
 		pip._internal.main(['install', package])
+	reloaded = True
 
 try:
 	import requests
@@ -39,6 +42,9 @@ logo = ('''\033[35m
 \033[0m''')
 os.system(console_clear)
 print(logo)
+if reloaded:
+	input("Please restart this script")
+	exit(1)
 _phone = input('Please enter phone number > ')
 _phone = _phone.strip()
 
